@@ -1,0 +1,54 @@
+a1 = "Наqчало"
+a2 = "Тупик"
+a3 = "Жуткий кридор"
+a4 = "Сокровища!"
+a5 = 'Поворот'
+a6 = 'Темница'
+a7 = 'Гоблины'
+a8 = 'Подземные крысы'
+
+
+while True:
+    ipm = input()
+
+    if ipm == "a3":
+        print(a3)
+        ipm = input()
+        if ipm == 'a6':
+            print(a6)
+        elif ipm == 'a7':
+            print(g)
+        elif ipm == 'a1':
+            print(a)
+
+    elif ipm == "a2":
+        print(a2)
+        ipm = input()
+        if ipm == a1:
+            print(a1)
+
+    elif ipm == "c":
+        print(a3)
+        ipm = input()
+        if ipm == 'a6':
+            print(a6)
+        if ipm == a1:
+            print(a1)
+
+    elif ipm == 'a5':
+        print(a5)
+        ipm = input()
+        if ipm == 'a3':
+            print(a3)
+        elif ipm == 'a1':
+            print(a1)
+        elif ipm == 'a7':
+            print(a7)
+            ipm = input()
+            if ipm == 'a8':
+                print(a8)
+                ipm = input()
+                if ipm == 'a7':
+                    print(a7)
+                if ipm == 'a5':
+                    print(a5)
