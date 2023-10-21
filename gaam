@@ -1,0 +1,54 @@
+a = "Начало"
+b = "Тупик"
+e = "Жуткий кридор"
+c = "Сокровища!"
+d = 'Поворот'
+f = 'Темница'
+g = 'Гоблины'
+i = 'Подземные крысы'
+
+
+while True:
+    ipm = input()
+
+    if ipm == "e":
+        print(e)
+        ipm = input()
+        if ipm == 'f':
+            print(f)
+        elif ipm == 'g':
+            print(g)
+        elif ipm == 'a':
+            print(a)
+
+    elif ipm == "b":
+        print(b)
+        ipm = input()
+        if ipm == a:
+            print(a)
+
+    elif ipm == "c":
+        print(c)
+        ipm = input()
+        if ipm == 'f':
+            print(f)
+        if ipm == a:
+            print(a)
+
+    elif ipm == 'd':
+        print(d)
+        ipm = input()
+        if ipm == 'e':
+            print(e)
+        elif ipm == 'a':
+            print(a)
+        elif ipm == 'g':
+            print(g)
+            ipm = input()
+            if ipm == 'i':
+                print(i)
+                ipm = input()
+                if ipm == 'g':
+                    print(g)
+                if ipm == 'd':
+                    print(d)
